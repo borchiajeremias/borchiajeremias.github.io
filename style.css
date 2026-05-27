@@ -951,6 +951,17 @@ textarea{
     opacity: 0.7;
 }
 
+.footer_logo{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer_logo:hover{
+    color: #ff4d4d;
+    text-shadow: 0 0 10px rgba(255,0,0,0.5);
+    transform: scale(1.05);
+}
+
 @media screen and (max-width: 768px){
     .contact_info{
         grid-template-columns: 1fr;
