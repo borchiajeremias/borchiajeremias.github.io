@@ -42,7 +42,7 @@ window.addEventListener("scroll", () => {
 
     });
 const logo = document.querySelector(".footer_logo");
-const sound = document.getElementById("footerSound");
+const sound = document.getElementById("footersound");
 logo.addEventListener("click", () => {
     sound.currentTime = 0; // reinicia
     sound.play();
